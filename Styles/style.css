@@ -147,3 +147,23 @@ body{
     display:flex;
     justify-content: flex-end;
 }
+
+/* Footer */
+.footer{
+    margin-top:100px;
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+.footer-container{
+  text-align: center;
+}
+.footer-social{
+text-align: center;
+}
+.foot-social{
+    width:8%;
+}
+.footer-description{
+    margin-top:20px;
+}
