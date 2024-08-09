@@ -29,7 +29,10 @@ body{
 }
 .nav-list{
     display:flex;
-    gap:80px;
+    gap:60px;
+}
+.nav-bars{
+    display:none;
 }
 .nav-list li{
     list-style: none;
@@ -73,4 +76,35 @@ body{
 .banner-image-container{
     display:flex;
     justify-content: flex-end;
+}
+
+/*  Card Section */
+.player-card-section{
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+}
+.card-container{
+    width:80%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}
+.card-photo{
+    width:100%;
+}
+.player-card{
+    padding:15px 15px;
+    box-shadow:5px 5px 20px #dbdbdd;
+
+}
+.card-name{
+    font-size:1.5rem;
+    margin:10px 0px;
+    letter-spacing: 1px;;
+}
+.card-description{
+    font-size:1rem;
+    letter-spacing: 1px;
+    color: rgb(108, 108, 108);
 }
