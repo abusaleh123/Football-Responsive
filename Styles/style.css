@@ -33,6 +33,7 @@ body{
 }
 .nav-bars{
     display:none;
+    color:#FFFFFF;
 }
 .nav-list li{
     list-style: none;
@@ -166,4 +167,36 @@ text-align: center;
 }
 .footer-description{
     margin-top:20px;
+}
+.display-hide{
+    display:none;
+}
+/* Media Query For Small Device */
+
+@media screen and (max-width:576px) {
+    .nav-list{
+        display:none;
+    }
+    .nav-bars{
+        display:block;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-main-title{
+        font-size:2.25rem;
+    }
+    .banner-image-container{
+        justify-content: center;
+        margin-top:50px;
+        margin-right:10px;
+    }
+    .banner-photo{
+        width:100%;
+    }
+
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
